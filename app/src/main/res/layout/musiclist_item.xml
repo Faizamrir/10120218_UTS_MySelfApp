@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="325dp"
+        android:layout_margin="6dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        app:strokeColor="@color/orange"
+        app:strokeWidth="3dp">
+
+        <TextView
+            android:id="@+id/musiclist"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/determination"
+            android:gravity="center"
+            android:text="Music List"
+            android:textColor="@color/orange"
+            android:textSize="20sp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
